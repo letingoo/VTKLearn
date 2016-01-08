@@ -14,7 +14,8 @@
 
 ## VTK6.0 还需要进行一下的配置
 在cpp文件里添加如下语句:(不使用CMake编译)
-    #include <vtkAutoInit.h>
+    
+        #include <vtkAutoInit.h>
     
     VTK_MODULE_INIT(vtkRenderingOpenGL)
     VTK_MODULE_INIT(vtkInteractionStyle)
